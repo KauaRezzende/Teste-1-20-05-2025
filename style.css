@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2b0261;
+    color: #E8F1F2;
+    font-family: 'Poetsen One';
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+header ul{
+    list-style-type: none;
+    
+}
+header ul a{
+    text-decoration: none;
+    color: #E8F1F2;
+    transition-duration: 1s;    
+}
+
+header ul a:hover{
+    color: #35007c;    
+}
+
+main{
+    margin-bottom: 95px;
+}
+
+h1,p{
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+img{
+    width: 400px;
+    height: 500px;    
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+    padding: 40px;
+}
+
+footer ol{
+    align-items: center;
+}
